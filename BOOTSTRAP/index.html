@@ -68,6 +68,21 @@
         #navbar a:hover {
             color: #c1b696;
         }
+        /*Main image*/
+        .main-image{
+            height: 400px;
+            background-image: url("https://picsum.photos/1200");
+            background-position: cover;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .main-image-info {
+            position: absolute;
+            left: 25px;
+            bottom: 25px;
+            background-color: #fff;
+            padding: 25px;
+        }
     </style>
 
 </head>
@@ -82,17 +97,25 @@
             </div>
             <p>Exibições de arte urbana</p>
         </header>
-            <nav id="navbar" class="container">
-                <div class="row">
-                    <div class="row justify-content-center">
-                        <a href="#">HOME</a>
-                        <a href="#">Projetos</a>
-                        <a href="#">Artista</a>
-                        <a href="#">Contato</a>
-                    </div>
+        <nav id="navbar" class="container">
+            <div class="row">
+                <div class="row justify-content-center">
+                    <a href="#">HOME</a>
+                    <a href="#">Projetos</a>
+                    <a href="#">Artista</a>
+                    <a href="#">Contato</a>
                 </div>
-            </nav>
-        
+            </div>
+        </nav>
+    </div>
+    <div class="container" id="main-image-container">
+        <div class="main-image main-image">
+            <div class="main-image-info">
+                <h2>Arte no Muro de Davi</h2>
+                <p class="secundary-color">Realizada em 20/05/2021</p>
+                <a href="#" class="btn">Detalhes</a>
+            </div>
+        </div>
     </div>
 </body>
 
